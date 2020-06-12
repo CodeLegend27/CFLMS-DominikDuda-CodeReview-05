@@ -32,20 +32,17 @@ $(document).on("click", ".textbox button", function() {
   });
  
 
- // speichert alle divs im array und danach wirds sortiert anhand der like values mit der sort funktion
+ // speichert alle divs in der variable divs als arr und danach wirds sortiert anhand der like values mit der sort funktion
   $("#sort").on("click", function() {
     let divs = $(".boxwrapper")
 
     let sorted = divs.sort(function(a, b) {
-       return $(a).find("span").text() < $(b).find("span").text() ? 1 : -1;
+        return parseInt($(a).find("span").text()) < parseInt($(b).find("span").text()) ? 1 : -1;
             
     });
     Swal.fire('SORTING DONE -- MY MASTER')
     $(".container").append(sorted);
-  
-    
-
-
+      
   });
  
 
