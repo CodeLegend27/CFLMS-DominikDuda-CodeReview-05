@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #9fefa3;
+  background-image: url(../img/header_49.jpg);
+}
+
+header, footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid rgba(4, 0, 255, 0.575);
+  border-radius: 5px;
+  min-height: 220px;
+  background-color: rgba(46, 117, 248, 0.5);
+  font-size: 5vw;
+  text-shadow: 0 0 10px black;
+}
+
+header h1, footer h1 {
+  color: #0206f0;
+}
+
+nav {
+  background-color: rgba(88, 134, 231, 0.575);
+  margin-bottom: 20px;
+  border: 1px solid rgba(4, 0, 255, 0.575);
+  border-radius: 5px;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.boxwrapper {
+  margin: 20px;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 5px solid rgba(4, 0, 255, 0.575);
+  -webkit-box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
+          box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+.imgbox {
+  background-color: rgba(177, 151, 238, 0.7);
+  width: 50%;
+}
+
+.imgbox img {
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.textbox {
+  background-color: rgba(177, 151, 238, 0.7);
+  padding: 5px;
+  width: 50%;
+}
+
+.textbox h3 {
+  color: blue;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  text-shadow: 0 0 2px #ffffff, 0 0 5px #ffffff;
+}
+
+.textbox p {
+  color: black;
+  font-weight: 900;
+  text-shadow: 0 0 2px #ffffff, 0 0 5px #ffffff;
+}
+
+.textbox a {
+  font-size: 2vw;
+}
+
+.textbox a img {
+  width: 50%;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .boxwrapper {
+    width: 100%;
+  }
+}
+
+h2 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: rgba(29, 97, 175, 0.6);
+  position: relative;
+  font-size: 2vw;
+  margin-bottom: 20px;
+}
+
+h2 #sort {
+  position: absolute;
+  right: 20px;
+}
+/*# sourceMappingURL=style.css.map */
