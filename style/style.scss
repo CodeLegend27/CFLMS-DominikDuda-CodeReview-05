@@ -3,23 +3,23 @@
     padding: 0;
     }
     body{
-        background-color: lighten($color: #96ee9b, $amount: 2);
+       // background-color: lighten($color: #1472ee, $amount: 2);
         background-image: url(../img/header_49.jpg);
+        background-position: top;
+        background-repeat: repeat-y;
     }
 header{
     display: flex;
     align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(4, 0, 255, 0.575);
+    justify-content: flex-start;
    
-border-radius: 5px;
-   
+
     min-height: 220px;
-    background-color: rgba(46, 117, 248, 0.5);
+    
     h1{
         color: #0206f0;}
-        font-size: 5vw;
-        text-shadow: 0 0 10px black;
+        font-size: 4vw;
+        text-shadow: 0 0 10px rgb(255, 255, 255);
         
 }
 footer{
@@ -27,6 +27,9 @@ footer{
 }
 
 nav {
+    width: 10%;
+    text-align: center;
+    font-size: 2vw;;
     background-color: rgba(88, 134, 231, 0.575);
     margin-bottom: 20px;
     border: 1px solid rgba(4, 0, 255, 0.575);
@@ -71,14 +74,15 @@ border-radius: 10px;
         img{
             width: 100%;
             border-radius: 10px;
-            padding: 5px;
+            padding: 10px;
+           
             
         }
 
     }
     .textbox{
         background-color: rgba($color: #b197ee, $alpha: 0.7);
-        padding: 5px;
+        padding: 10px;
 width: 50%;
 h3{
     color: blue;
@@ -91,11 +95,15 @@ p{
     font-weight: 900;
     text-shadow: 0 0 2px #ffffff, 0 0 5px #ffffff; 
 }
-        a{
+        button{
             font-size: 2vw;
+            width: 70%;
+            cursor: pointer;
             img{
+                
                 width: 50%;
                 cursor: pointer;
+                margin-right: 10px;
             }
         }
     }
@@ -104,21 +112,25 @@ p{
         .boxwrapper{width: 100%;}
         }
     
-  h2{
-      text-align: center;
-  }
+ 
  
 
   h2 {
       text-align: center;
-      color: rgba($color: #1d61af, $alpha: 0.6);
+      text-shadow: 0 0 2px #ffffff, 0 0 5px #ffffff; 
+      color: black;
      position: relative;
      font-size: 2vw;
      margin-bottom: 20px;
+     background-color: rgba($color: #fdf4f4, $alpha: 0.8);
+     border-radius: 20px;
+     border: solid black 1px;
 }
 
 h2 #sort {
+    
     position: absolute;
+    cursor: pointer;
     right: 20px;
     
 }

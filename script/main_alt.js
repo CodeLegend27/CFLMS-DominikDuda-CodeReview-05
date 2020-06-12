@@ -22,7 +22,7 @@ console.log(typeof(film));
 $(document).ready(function() {  // Wenn alles fertig geladen ist insertet er die Funktion die durch die Json looped im div
     filmInsert($('.container'));
 
-/* 
+
     
   var a = $('.container');  
   var b = a.find('boxwrapper');
@@ -34,24 +34,23 @@ console.log(b)
         $("#button1").on("click", function(){
            
     counter1++
-    console.log(counter1)
-    $(this).parents(':eq(2)').attr("data-list", counter1)
+    $(".boxwrapper").attr("data-order", function(i, origValue){
+        return counter1});
+
+
             $("#output1").text("BUDS " +counter1)
         })
 
         
 
-        let counter2 = 0
-        $("#button2").on("click", function(){
-           
-    counter2++
-    console.log(counter2)
-    $(this).parents(':eq(2)').attr("data-list", counter2)
-            $("#output2").text("BUDS " +counter2)
-        })
-
-
-
+    let counter2 = 0
+    $("#button2").on("click", function(){
+       
+counter2++
+$(".boxwrapper").attr("data-order", function(i, origValue){
+    return counter2});
+        $("#output2").text("BUDS " +counter2)
+    })  
     let counter3 = 0
         $("#button3").on("click", function(){
            
@@ -89,43 +88,12 @@ $("#output1").attr("class", function(i, origValue){
     
     
 
-$("#sort").on("click", function(){  
-
-    
-var divList = $(".boxwrapper");
-divList.sort(function(a, b){ return $(a).data("list")-$(b).data("list")});
-
-$(".container").append(divList);
-
-
-
-alert("As you command, Master")
-})
- 
-
-$(document).on("click", ".textbox a", function() {
-    let likes = parseInt($(this).closest(".textbox").find("span").text());
-    $(this).closest(".textbox").find("span").text(likes + 1);
-  });
-  $("#sort").on("click", function() {
-    let divs = $(".boxwrapper")
-    let sorted = divs.sort(function(a, b) {
-       return $(a).find("span").text() < $(b).find("span").text() ? 1 : -1;
-    });
-    $(".container").html(sorted);
-  
-  });
-
-*/
-
 
     function filmInsert(insert) {
         $.each(film, function(i, data) { //.each statt loop
-           
-          
           let box = 
           
-          `<div class="boxwrapper" id="${i++}" data=[0]>
+          `<div class="boxwrapper">
           <div class="imgbox">
           <img src="${data.img}" alt="${data.titel}">
         </div>
@@ -134,7 +102,7 @@ $(document).on("click", ".textbox a", function() {
             <p>${data.beschreibung}</p>
             <p> <button id="button${data.id}">
               <img src="img/budspencer_official.png"></button>
-              <span id="output${data.id}" class="counter${data.id}">${data.likes}</span>
+              <span id="output${data.id}" class="counter${data.id}">BUDS ${data.likes}</span>
             </p>
           </div>
         </div>`;
@@ -143,6 +111,52 @@ $(document).on("click", ".textbox a", function() {
         });
       }
     
+    
+      var kk = $(".boxwrapper").attr("data-order")
+      console.log(a)
+   
+
+
+      var a = $('.container');  
+      var b = a.find('.boxwrapper');
+      console.log(b)
+
+      var ascending = true;
+
+      var $myColorList = $('#my-color-list');
+      var $colors = $myColorList.children('li');
+      var sortList = Array.prototype.sort.bind($colors);
+      
+      var doSort = function ( ascending ) {
+          
+          sortList(function ( a, b ) {
+      
+              var a = a.innerHTML;
+              var bText = b.innerHTML;
+      
+              if ( aText < bText ) {
+                  return ascending ? -1 : 1;
+              }
+      
+              if ( aText > bText ) {
+                  return ascending ? 1 : -1;
+              }
+      
+              return 0;
+          });
+          
+          $myColorList.append($colors);
+      
+      };
+      
+      $('#btn-sort').on('click', function () {
+          doSort(ascending);
+          ascending = !ascending;
+      });
+
+
+
+
 });
 
 
