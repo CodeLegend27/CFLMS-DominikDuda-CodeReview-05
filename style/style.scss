@@ -1,48 +1,50 @@
 * {
     margin: 0;
     padding: 0;
-    }
-    body{
-       // background-color: lighten($color: #1472ee, $amount: 2);
-        background-image: url(../img/header_49.jpg);
-        background-position: top;
-        background-repeat: repeat-y;
-    }
-header{
+}
+body {
+    // background-color: lighten($color: #1472ee, $amount: 2);
+    background-image: url(../img/header_49.jpg);
+    background-position: top;
+    background-repeat: repeat-y;
+}
+header {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-   
 
     min-height: 220px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4vw;
+    h1 {
+   
+        color: black;
+        text-shadow: 0 0 10px rgb(26, 40, 236);
+    }
     
-    h1{
-        color: #0206f0;}
-        font-size: 4vw;
-        text-shadow: 0 0 10px rgb(255, 255, 255);
-        
+    
 }
-footer{
+footer {
     @extend header;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 50px;
 }
 
 nav {
     width: 10%;
     text-align: center;
-    font-size: 2vw;;
+    font-size: 2vw;
     background-color: rgba(88, 134, 231, 0.575);
     margin-bottom: 20px;
     border: 1px solid rgba(4, 0, 255, 0.575);
-   
-border-radius: 5px;
+
+    border-radius: 5px;
     ul {
         padding: 0;
         list-style: none;
-      
     }
     li {
         display: inline-block;
-       
     }
     a {
         display: block;
@@ -53,85 +55,84 @@ border-radius: 5px;
     }
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
-    .container{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
-    }
-
-    .boxwrapper{
-        margin: 20px;
-        width: 40%;
-        display: flex;
-        border: 5px solid rgba(4, 0, 255, 0.575);
-        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
-border-radius: 10px;
-    }
-    .imgbox{
-        background-color: rgba($color: #b197ee, $alpha: 0.7);
-        width: 50%;
-        img{
-            width: 100%;
-            border-radius: 10px;
-            padding: 10px;
-           
-            
-        }
-
-    }
-    .textbox{
-        background-color: rgba($color: #b197ee, $alpha: 0.7);
+.boxwrapper {
+    margin: 20px;
+    width: 40%;
+    display: flex;
+    border: 5px solid rgba(4, 0, 255, 0.575);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+.imgbox {
+    background-color: rgba($color: #b197ee, $alpha: 0.7);
+    width: 50%;
+    img {
+        width: 100%;
+        border-radius: 10px;
         padding: 10px;
-width: 50%;
-h3{
-    color: blue;
-    padding-bottom: 10px;
-    font-weight: bolder;
-    text-shadow: 0 0 2px #ffffff, 0 0 5px #ffffff; 
+    }
 }
-p{
-    color: black;
-    font-weight: 900;
-    text-shadow: 0 0 2px #ffffff, 0 0 5px #ffffff; 
-}
-        button{
-            font-size: 2vw;
-            width: 70%;
+.textbox {
+    background-color: rgba($color: #b197ee, $alpha: 0.7);
+    padding: 10px;
+    width: 50%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+
+    h3 {
+        color: blue;
+        padding-bottom: 10px;
+        font-weight: bolder;
+        text-shadow: 0 0 2px #ffffff, 0 0 5px #ffffff;
+    }
+    p {
+        color: black;
+        font-weight: 900;
+        text-shadow: 0 0 2px #ffffff, 0 0 5px #ffffff;
+    }
+    button {
+        font-size: 2vw;
+        width: 70%;
+        cursor: pointer;
+        img {
+            width: 50%;
             cursor: pointer;
-            img{
-                
-                width: 50%;
-                cursor: pointer;
-                margin-right: 10px;
-            }
+            margin-right: 10px;
         }
     }
+}
 
-    @media (max-width: 500px) {
-        .boxwrapper{width: 100%;}
-        }
-    
- 
- 
 
-  h2 {
-      text-align: center;
-      text-shadow: 0 0 2px #ffffff, 0 0 5px #ffffff; 
-      color: black;
-     position: relative;
-     font-size: 2vw;
-     margin-bottom: 20px;
-     background-color: rgba($color: #fdf4f4, $alpha: 0.8);
-     border-radius: 20px;
-     border: solid black 1px;
+
+@media (max-width: 500px) {
+    .boxwrapper {
+        width: 100%;
+    }
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 0 0 2px #ffffff, 0 0 5px #ffffff;
+    color: black;
+    position: relative;
+    font-size: 2vw;
+    margin-bottom: 20px;
+    background-color: rgba($color: #fdf4f4, $alpha: 0.8);
+    border-radius: 20px;
+    border: solid black 1px;
 }
 
 h2 #sort {
-    
     position: absolute;
     cursor: pointer;
     right: 20px;
-    
 }
-

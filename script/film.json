@@ -1,53 +1,82 @@
 [
 
-{
-    "titel" : "1950: Quel fantasma di mio marito",
-    "beschreibung" : "Bud Spencer hat in dieser Komödie nur einen sehr kurzen Gastauftritt. Er spielt einen namenlosen Badegast auf einer Poolparty im Hause des Zeitungsdirektors. Hier erleidet die Hauptfigur Vivia beim Schwimmen einen Schwächeanfall. Bud eilt ihr zu Hilfe, holt sie aus dem Wasser und trägt sie dann ins Haus. Etwas sagen darf er in dieser Rolle nicht. Die Mitwirkung Bud Spencers in diesem Film war bis ins Jahr 2014 unbekannt. Bis dahin galt seine Statistenrolle im zwei Jahre später gedrehten Quo vadis? als sein erster Auftritt vor der Kamera. `Quel fantasma di mio marito` tauchte bis dahin in keiner Filmographie Bud Spencers auf und auch in seiner Autobiographie wird der Film von Spencer nicht erwähnt. So war die Entdeckung seiner Rolle im Februar 2014 eine faustdicke Überraschung.",
-    "img" : "img/1.jpg",
-    "likes" : 0,
-    "id" : 1
-    
-},
 
-{
-    "titel" : "1951: Quo vadis? (Quo Vadis)",
-    "beschreibung" : "Quo vadis? (Originaltitel: Quo Vadis, deutsch Wohin gehst du?) ist ein Monumentalfilm von Mervyn LeRoy für die MGM aus dem Jahr 1951. Er basiert auf dem Roman Quo Vadis von Henryk Sienkiewicz, dessen Titelgebung wiederum die christliche Überlieferung von der Begegnung Christi und seinem Jünger Simon Petrus vor den Toren Roms (Quo vadis?) aufgreift. Die Uraufführung des Films fand am 8. November 1951 in den Vereinigten Staaten statt; die deutsche Erstaufführung erfolgte am 13. August 1954. Der Film erzählt die Geschichte des römischen Generals Marcus Vinicius, der aus dem Krieg nach Rom zurückkehrt und sich dort in die christliche Staatsgeisel Lygia verliebt. Dramatische Höhepunkte sind der Brand Roms und die Christenverfolgung durch Kaiser Nero.",
-    "img" : "img/2.jpg",
-    "likes" : 0,
-    "id" : 2
-},
+    {
+"titel" : "1981: Banana Joe",
+"beschreibung" : "Banana Joe ist ein friedlicher Bananenbauer und wohnt zusammen mit seinen zahlreichen Frauen und Kindern in dem kleinen südamerikanischen Dschungeldorf Amantido. Sein wichtigster Besitz ist ein dampfbetriebenes Transportboot, mit welchem er die Bananen regelmäßig in die nächstgelegene Stadt bringt und gegen allerlei Dinge des täglichen Bedarfs eintauscht.",
+"img" : "img/7.jpg",
+"id" : 7
 
-{
-    "titel" : "1954: Torpedomänner greifen an (Siluri umani)",
-    "beschreibung" : "Torpedomänner greifen an (Italienischer Originaltitel Siluri umani = Menschliche Torpedos) ist ein italienischer Kriegsfilm von 1954, der während des Zweiten Weltkriegs 1941 auf Kreta spielt. Die Rolle des Marinetauchers und Schnellbootfahrers Magrini wurde von Carlo Pedersoli gespielt, der später unter dem Künstlernamen Bud Spencer international bekannt wurde. Weitere Aufführungstitel sind Tscheweschki Torpeda (Bulgarien), Torpedos Humanos (Brasilien, Portugal), Uppdrag utan återvändo (Schweden), Torpilles humaines (Frankreich), Menneske-torpedoer (Dänemark). Der Film entstand in enger Zusammenarbeit mit der Marina Militare unter besonderer Mitwirkung von Fregattenkapitän Luigi Faggioni. Die westdeutsche Uraufaufführung fand am 27. April 1956 statt.",
-    "img" : "img/3.jpg",
-    "likes" : 0,
-    "id" : 3
-},
+    },
 
-{
-    "titel" : "1957: Il cocco di mamma",
-    "beschreibung" : "Aldo, Vasco and `Smilzo` (Slim) are friends. They live with their parents and are training for boxing. But their real interest is in women. When casually Aldo meets Laura and falls for her. Will he succeed in winning her love?",
-    "img" : "img/4.jpg",
-    "likes" : 0,
-    "id" : 4
-},
+    {
+        "titel" : "1983: Zwei bärenstarke Typen",
+        "beschreibung" : "Zwei bärenstarke Typen (Originaltitel: italienisch Nati con la camicia) ist eine Filmkomödie und Agententhriller-Parodie mit Terence Hill und Bud Spencer aus dem Jahr 1983. Der Film erschien in Deutschland am 23. September 1983.",
+        "img" : "img/8.jpg",
+        "id" : 8
+        
+            },
 
-{
-    "titel" : "1957: Ein Held unserer Tage (Un eroe di nostri tempi)",
-    "beschreibung" : "Ein Held unserer Tage (Originaltitel: Un eroe dei nostri tempi) ist eine italienische Filmkomödie in Schwarzweiß aus dem Jahr 1955 von Mario Monicelli. Von ihm stammt auch das Drehbuch. Die Hauptrollen sind mit Alberto Sordi, Franca Valeri, Giovanna Ralli und Tina Pica besetzt. In Deutschland konnte man das Werk erstmals am 14. September 1969 im Programm der ARD sehen.[1]",
-    "img" : "img/5.jpg",
-    "likes" : 0,
-    "id" : 5
-},
-{
-    "titel" : "1957: In einem anderen Land (A Farewell To Arms)",
-    "beschreibung" : "In einem anderen Land (Originaltitel: A Farewell to Arms) ist ein US-amerikanischer Spielfilm des Regisseurs Charles Vidor. Das Drehbuch von Ben Hecht basiert auf dem Roman In einem andern Land (A Farewell to Arms) von Ernest Hemingway. Der Kriegsfilm wurde in Deutschland erstmals am 21. März 1958 im Kino gezeigt. Er ist eine Neuverfilmung des gleichnamigen Films, den Frank Borzage 1932 mit Gary Cooper und Helen Hayes in den Hauptrollen inszeniert hatte.",
-    "img" : "img/6.jpg",
-    "likes" : 0,
-    "id" : 6
-    
-}
+            {
+                "titel" : "1984: Vier Fäuste gegen Rio",
+                "beschreibung" : "Vier Fäuste gegen Rio (Originaltitel: Non c’è due senza quattro) ist eine italienische Komödie aus dem Jahr 1984 mit dem schlagkräftigen Schauspielergespann Bud Spencer und Terence Hill.",
+                "img" : "img/9.jpg",
+                "id" : 9
+                
+                    },
+
+                    {
+                        "titel" : "1985: Die Miami Cops ",
+                        "beschreibung" : "Die Miami Cops (Originaltitel: Poliziotti dell’ottava strada) ist eine italienische Filmkomödie aus dem Jahre 1985. Der Film hatte am 13. Februar 1986 in der Bundesrepublik Deutschland Premiere.",
+                        "img" : "img/10.jpg",
+                        "id" : 10
+                        
+                            },
+
+
+  {
+    "titel": "1950: Quel fantasma di mio marito",
+    "beschreibung": "Bud Spencer hat in dieser Komödie nur einen sehr kurzen Gastauftritt. Er spielt einen namenlosen Badegast auf einer Poolparty im Hause des Zeitungsdirektors. Hier erleidet die Hauptfigur Vivia beim Schwimmen einen Schwächeanfall. Bud eilt ihr zu Hilfe, holt sie aus dem Wasser und trägt sie dann ins Haus. Etwas sagen darf er in dieser Rolle nicht. Die Mitwirkung Bud Spencers in diesem Film war bis ins Jahr 2014 unbekannt. Bis dahin galt seine Statistenrolle im zwei Jahre später gedrehten Quo vadis? als sein erster Auftritt vor der Kamera. `Quel fantasma di mio marito` tauchte bis dahin in keiner Filmographie Bud Spencers auf und auch in seiner Autobiographie wird der Film von Spencer nicht erwähnt. So war die Entdeckung seiner Rolle im Februar 2014 eine faustdicke Überraschung.",
+    "img": "img/1.jpg",
+    "id": 1
+  },
+
+  {
+    "titel": "1951: Quo vadis? (Quo Vadis)",
+    "beschreibung": "Quo vadis? (Originaltitel: Quo Vadis, deutsch Wohin gehst du?) ist ein Monumentalfilm von Mervyn LeRoy für die MGM aus dem Jahr 1951. Er basiert auf dem Roman Quo Vadis von Henryk Sienkiewicz, dessen Titelgebung wiederum die christliche Überlieferung von der Begegnung Christi und seinem Jünger Simon Petrus vor den Toren Roms (Quo vadis?) aufgreift. Die Uraufführung des Films fand am 8. November 1951 in den Vereinigten Staaten statt; die deutsche Erstaufführung erfolgte am 13. August 1954. Der Film erzählt die Geschichte des römischen Generals Marcus Vinicius, der aus dem Krieg nach Rom zurückkehrt und sich dort in die christliche Staatsgeisel Lygia verliebt. Dramatische Höhepunkte sind der Brand Roms und die Christenverfolgung durch Kaiser Nero.",
+    "img": "img/2.jpg",
+    "id": 2
+  },
+
+  {
+    "titel": "1954: Torpedomänner greifen an (Siluri umani)",
+    "beschreibung": "Torpedomänner greifen an (Italienischer Originaltitel Siluri umani = Menschliche Torpedos) ist ein italienischer Kriegsfilm von 1954, der während des Zweiten Weltkriegs 1941 auf Kreta spielt. Die Rolle des Marinetauchers und Schnellbootfahrers Magrini wurde von Carlo Pedersoli gespielt, der später unter dem Künstlernamen Bud Spencer international bekannt wurde. Weitere Aufführungstitel sind Tscheweschki Torpeda (Bulgarien), Torpedos Humanos (Brasilien, Portugal), Uppdrag utan återvändo (Schweden), Torpilles humaines (Frankreich), Menneske-torpedoer (Dänemark). Der Film entstand in enger Zusammenarbeit mit der Marina Militare unter besonderer Mitwirkung von Fregattenkapitän Luigi Faggioni. Die westdeutsche Uraufaufführung fand am 27. April 1956 statt.",
+    "img": "img/3.jpg",
+    "id": 3
+  },
+
+  {
+    "titel": "1957: Il cocco di mamma",
+    "beschreibung": "Aldo, Vasco and `Smilzo` (Slim) are friends. They live with their parents and are training for boxing. But their real interest is in women. When casually Aldo meets Laura and falls for her. Will he succeed in winning her love?",
+    "img": "img/4.jpg",
+    "id": 4
+  },
+
+  {
+    "titel": "1957: Ein Held unserer Tage (Un eroe di nostri tempi)",
+    "beschreibung": "Ein Held unserer Tage (Originaltitel: Un eroe dei nostri tempi) ist eine italienische Filmkomödie in Schwarzweiß aus dem Jahr 1955 von Mario Monicelli. Von ihm stammt auch das Drehbuch. Die Hauptrollen sind mit Alberto Sordi, Franca Valeri, Giovanna Ralli und Tina Pica besetzt. In Deutschland konnte man das Werk erstmals am 14. September 1969 im Programm der ARD sehen.[1]",
+    "img": "img/5.jpg",
+    "id": 5
+  },
+  {
+    "titel": "1957: In einem anderen Land (A Farewell To Arms)",
+    "beschreibung": "In einem anderen Land (Originaltitel: A Farewell to Arms) ist ein US-amerikanischer Spielfilm des Regisseurs Charles Vidor. Das Drehbuch von Ben Hecht basiert auf dem Roman In einem andern Land (A Farewell to Arms) von Ernest Hemingway. Der Kriegsfilm wurde in Deutschland erstmals am 21. März 1958 im Kino gezeigt. Er ist eine Neuverfilmung des gleichnamigen Films, den Frank Borzage 1932 mit Gary Cooper und Helen Hayes in den Hauptrollen inszeniert hatte.",
+    "img": "img/6.jpg",
+    "id": 6
+  }
+
+
+
 
 
 
